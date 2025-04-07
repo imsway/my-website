@@ -1,0 +1,165 @@
+.footer
+{
+    padding: 80px 80px;
+    background: black;
+    width: 100%;
+}
+
+.footer .container
+{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.footer .container .detail_container
+{
+    width: 50%;
+}
+
+.footer .container .detail_container h3
+{
+    font-family: syne;
+    font-size: 72px;
+    line-height: 75px;
+    color: white;
+}
+
+.footer .container .detail_container p
+{
+    font-size: 18px;
+    line-height: 30px;
+    margin-top: 15px;
+    color: antiquewhite;
+}
+
+.footer .container .detail_container .call-detail
+{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .container .detail_container .call-detail h4
+{
+    font-size: 21px;
+    line-height: 0px;
+    color: white;
+}
+
+.footer .container .detail_container .icons
+{
+    margin-top: 50px;
+    gap: 10px;
+    display: flex;
+}
+
+.footer .container .detail_container .icons .icon
+{
+    color: antiquewhite;
+    padding: 8px 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.footer .container .detail_container .icons .icon:hover
+{
+    background: #d04e6c;
+    color: black;
+    border: 1px solid black;
+    box-shadow: 0px 2px 0px white;
+}
+
+.footer .container .form-container
+{
+    margin-right: 0%;
+}
+
+.footer .container .form-container h3
+{
+    font-family: syne;
+    color: antiquewhite;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.footer .container .form-container .form
+{
+    margin-top: 30px;
+}
+
+.footer .container .form-container .form .input_box
+{
+    margin-top: 20px;
+}
+
+.footer .container .form-container .form .input_box input,textarea
+{
+    width: 450px;
+    padding: 16px;
+    border-radius: 16px;
+    outline: none;
+    border: 1px solid #d04e6c;
+    font-size: 14px;
+    color: #d04e6c;
+    font-weight: bold;
+    background: none;  
+}
+
+.footer .container .form-container .form .input_box textarea
+{
+    resize: none;
+    height: 200px;
+
+}
+
+.footer .container .form-container .form .btn button
+{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background: #d04e6c;
+    color: black;
+    font-weight: 500;
+    border-radius: 50px;
+    position: relative;
+    padding: 12px 20px;
+    box-shadow: 0px 4px 0px white;
+    transition: 0.3s;
+    width: 450px;
+    cursor: pointer;
+    justify-content: space-between;
+    border: 3px solid black;
+}
+
+.footer .container .form-container .form .btn button:hover 
+{
+    box-shadow: none;
+    background: #F1ABB9;
+}
+
+.footer .container .form-container .form .btn button span
+{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 50px;
+    color: black;
+}
+
+.footer .container .form-container .form .btn button .icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 36px;
+    width: 36px;
+    background: black;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    right: 5px;
+    font-size: 18px;
+}

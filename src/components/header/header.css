@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    font-family: sans-serif, Syne;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    padding: 30px 40px;
+    width: 100%;
+    background: #000;
+    justify-content: space-between;
+
+}
+
+.header .navbar {
+    display: flex;
+}
+
+.header .navbar .logo img {
+    cursor: pointer;
+}
+
+.header .navbar .navlinks {
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header .navbar .navlinks ul {
+    display: flex;
+    gap: 40px;
+}
+
+.header .navbar .navlinks ul li {
+    list-style: none;
+    cursor: pointer;
+}
+
+.header .navbar .navlinks ul li a {
+
+    font-weight: bold;
+    color: #D3D3D3;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.header .navbar .navlinks ul li a:hover {
+    color: #D04E6c;
+    font-weight: bold;
+}
+
+.header .btn button {
+    background: #D04E6c;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.2s;
+    outline: none;
+    box-shadow: 0px 4px 0px;
+    border: 3px solid black;
+}
+
+.header .btn button:hover {
+    background: #F1ABB9;
+    box-shadow: none;
+}

@@ -1,0 +1,67 @@
+.about {
+    padding: 50px 60px;
+    background: #D3D3D3;
+}
+
+.about .top_container {
+    margin-top: 20px;
+}
+
+.about .top_container .title {
+    text-align: center;
+    padding: 30px 40px;
+}
+
+.about .top_container .title h2 {
+    font-size: 70px;
+    line-height: 75px;
+    font-family: syne;
+}
+
+.about .top_container .box_container {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.about .top_container .box_container .box {
+    height: 400px;
+    width: 550px;
+    border-radius: 16px;
+    border: 2px solid black;
+    padding: 40px 30px;
+}
+
+.about .top_container .box_container .box:hover {
+    box-shadow: 3px 4px 0px black;
+    background: #D04E6c;
+}
+
+.about .top_container .box_container .box .icon {
+    font-size: 62px;
+}
+
+.about .top_container .box_container .box .details {
+    margin-top: 20px;
+}
+
+.about .top_container .box_container .box .details h3 {
+    font-size: 30px;
+    font-family: syne;
+    line-height: 45px;
+
+}
+
+.about .top_container .box_container .box .details p {
+    font-family: sans-serif;
+    margin-top: 30px;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+.about .top_container .box_container .box .details .icon {
+    margin-top: 30px;
+    font-size: 32px;
+}

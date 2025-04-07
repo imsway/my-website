@@ -1,0 +1,95 @@
+.Swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.portfolio {
+    padding: 50px 10px;
+    background: black;
+}
+
+.portfolio .container {
+    margin-top: 20px;
+}
+
+.portfolio .container .title {
+    padding: 60px 80px;
+    text-align: center;
+}
+
+.portfolio .container .title h2 {
+    font-size: 70px;
+    line-height: 75px;
+    font-family: syne;
+    color: #D3D3D3;
+
+}
+
+.portfolio .container .img_slider {
+    display: flex;
+}
+
+.portfolio .container .img_slider .slide_box {
+    height: 750px;
+    width: 600px;
+    border-radius: 16px;
+    border: 3px solid #D3D3D3;
+    overflow: hidden;
+
+}
+
+.portfolio .container .img_slider .slide_box .img_box img {
+    
+    width: 100%;
+    object-fit: cover;
+    transition: 0.3s;
+    border-radius: 16px;
+}
+
+.portfolio .container .img_slider .slide_box:hover .img_box img {
+    transform: scale(1.1);
+}
+
+.portfolio .container .img_slider .slide_box .details {
+    position: absolute;
+    z-index: 1;
+    height: 100%; 
+    width: 95.5%;
+    background: rgba(0,0,0,0.45);
+    border-radius: 16px;
+    padding: 20px 30px;
+    transition: 0.3s;
+}
+
+.portfolio .container .img_slider .slide_box:hover .details {
+    backdrop-filter: blur(2px);
+}
+
+.portfolio .container .img_slider .slide_box .details h3 {
+
+    margin-top: 50%;
+    font-size: 30px;
+    line-height: 42px;
+    font-family: syne;
+    color: #D3D3D3;
+    font-weight:600;
+}
+
+.portfolio .container .img_slider .slide_box .details p {
+    font-size: 20px;
+    line-height: 25px;
+    font-family: syne;
+    color: #D3D3D3;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
